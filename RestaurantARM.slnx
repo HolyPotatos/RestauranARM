@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ARM.Client/ARM.Client.csproj" />
+  <Project Path="ARM.Core/ARM.Core.csproj" />
+  <Project Path="ARM.Data/ARM.Data.csproj" />
+</Solution>
