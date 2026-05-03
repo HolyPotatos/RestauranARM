@@ -10,14 +10,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ARM.Client
+namespace ARM.Client.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для LoginWindow.xaml
+    /// Логика взаимодействия для MessageBoxWindow.xaml
     /// </summary>
-    public partial class LoginWindow : Window
+    public partial class MessageBoxWindow : Window
     {
-        public LoginWindow()
+        public MessageBoxWindow()
         {
             InitializeComponent();
         }

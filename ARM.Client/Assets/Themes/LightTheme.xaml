@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="BgColor" Color="#F9F8F6" />
+    <SolidColorBrush x:Key="SecondaryBgColor" Color="#FCFBF9" />
+    <SolidColorBrush x:Key="TextPrimaryColor" Color="#2C2621" />
+    <SolidColorBrush x:Key="TextSecondaryColor" Color="#7A6F66" />
+    <SolidColorBrush x:Key="TextDisabledColor" Color="#B0A9A3" />
+    <SolidColorBrush x:Key="TextOnPrimaryColor" Color="#F9F8F6" />
+    <SolidColorBrush x:Key="PrimaryColor" Color="#5C4638" />
+    <SolidColorBrush x:Key="PrimaryHoverColor" Color="#735A4A" />
+    <SolidColorBrush x:Key="PrimaryPressedColor" Color="#45342A" />
+    <SolidColorBrush x:Key="SecondaryColor" Color="#C4A482" />
+    <SolidColorBrush x:Key="BorderDefaultColor" Color="#E0D8D0" />
+    <SolidColorBrush x:Key="BorderHoverColor" Color="#C4B9B0" />
+    <SolidColorBrush x:Key="InputFocusBorderColor" Color="#8E7562" />
+    <SolidColorBrush x:Key="InputDisabledBgColor" Color="#EAE4DD" />
+    <SolidColorBrush x:Key="DangerColor" Color="#9E453A" />
+    <SolidColorBrush x:Key="SuccessColor" Color="#4A734D" />
+    <SolidColorBrush x:Key="WarningColor" Color="#C28A3A" />
+</ResourceDictionary>

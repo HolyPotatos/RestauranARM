@@ -1,4 +1,5 @@
-﻿using ARM.Core.ViewModels;
+﻿using ARM.Client.Windows;
+using ARM.Core.ViewModels;
 using ARM.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,7 @@ namespace ARM.Client
                 options.UseNpgsql("Host=localhost;Port=5432;Database=ArmDb;Username=postgres;Password=12345;"));
                 services.AddSingleton<MainWindow>();
                 services.AddSingleton<LoginWindow>();
+                services.AddSingleton<MessageBoxWindow>();
                 services.AddTransient<MainViewModel>();
             }).Build();
         }
