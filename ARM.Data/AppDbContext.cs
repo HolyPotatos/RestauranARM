@@ -10,17 +10,17 @@ namespace ARM.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<EmployeeTitle> EmployeeTitle { get; set; }
-        public DbSet<Menu> Menu { get; set; }
-        public DbSet<MenuCategory> MenuCategory { get; set; }
+        public DbSet<EmployeeTitle> EmployeeTitles { get; set; }
+        public DbSet<Menu> Menus { get; set; }
+        public DbSet<MenuCategory> MenuCategories { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
-        public DbSet<CustomerOrder> Orders { get; set; }
-        public DbSet<OrderStatus> OrderStatus { get; set; }
-        public DbSet<PaymentType> PaymentType { get; set; }
-        public DbSet<Reservation> Reservation { get; set; }
-        public DbSet<ReservationStatus> ReservationStatus { get; set; }
-        public DbSet<SeatTable> Tables { get; set; }
-        public DbSet<TableStatus> TableStatus { get; set; }
+        public DbSet<CustomerOrder> CustomerOrders { get; set; }
+        public DbSet<OrderStatus> OrderStatuses { get; set; }
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<ReservationStatus> ReservationStatuses { get; set; }
+        public DbSet<SeatTable> SeatTables { get; set; }
+        public DbSet<TableStatus> TableStatuses { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
