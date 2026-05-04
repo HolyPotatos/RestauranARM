@@ -19,7 +19,7 @@ namespace ARM.Data.Entities
         [Required]
         public int SeatTableID { get; set; }
         [Required]
-        public int StatusID { get; set; }
+        public int ReservationStatusID { get; set; }
         public virtual SeatTable? SeatTable { get; set; }
         public virtual ReservationStatus? ReservationStatus { get; set; }
     }
