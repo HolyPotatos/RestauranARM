@@ -14,12 +14,12 @@ namespace ARM.Data
         public DbSet<Menu> Menu { get; set; }
         public DbSet<MenuCategory> MenuCategory { get; set; }
         public DbSet<OrderDetails> OrderDetails { get; set; }
-        public DbSet<Orders> Orders { get; set; }
+        public DbSet<CustomerOrder> Orders { get; set; }
         public DbSet<OrderStatus> OrderStatus { get; set; }
         public DbSet<PaymentType> PaymentType { get; set; }
         public DbSet<Reservation> Reservation { get; set; }
         public DbSet<ReservationStatus> ReservationStatus { get; set; }
-        public DbSet<Tables> Tables { get; set; }
+        public DbSet<SeatTable> Tables { get; set; }
         public DbSet<TableStatus> TableStatus { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
